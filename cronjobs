@@ -1,0 +1,3 @@
+0 0 1 * *   root curl --header \"Content-Type: application/json\" --request POST --data '' ${URL}/api/hooks/payout > /proc/1/fd/1 2>/proc/1/fd/2
+*/5 * * * * root curl --header \"Content-Type: application/json\" --request POST --data '' ${URL}/api/hooks/calls/5 > /proc/1/fd/1 2>/proc/1/fd/2
+*/5 * * * * root curl --header \"Content-Type: application/json\" --request POST --data '' ${URL}/api/hooks/calls/24 > /proc/1/fd/1 2>/proc/1/fd/2

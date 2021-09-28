@@ -1,0 +1,10 @@
+[submodule "LoggingGCP"]
+	path = LoggingGCP
+	url = git@github.com:rococoshka/LoggingGCP.git
+[submodule "appfork8s"]
+    path = appfork8s
+    url = git@github.com:rococoshka/appfork8s.git
+    
+[submodule "Logging"]
+	path = Logging
+	url = git@github.com:rococoshka/LoggingGCP.git
